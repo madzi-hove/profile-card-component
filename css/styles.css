@@ -1,0 +1,67 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* position: relative; */
+    max-width: 375px;
+    }
+.background::before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 50%;
+    background: url('../images/bg-pattern-bottom.svg') top left no-repeat;
+    background-size: 395%;
+    /* transform: translate(-50%, -50%); */
+    top: 50%;
+    left: 50%;
+    border: 1px solid red;
+    
+}
+.background::after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 50%;
+    background: url('../images/bg-pattern-top.svg') bottom right no-repeat ;
+    background-size: 395%;
+    /* transform: translate(-50%, -50%); */
+    top: 0%;
+    left: 0;
+    border: 1px solid red;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 90%;
+
+}
+
+.profile-card__item {
+    flex: 1;
+}
+
+.header {
+    content: "";
+    background: url(../images/bg-pattern-card.svg) no-repeat; 
+    background-size: contain;
+}
+
+
+
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    font-size: 11px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
