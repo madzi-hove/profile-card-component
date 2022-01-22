@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/reset/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/reset/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
-  <main class="background">
-    <div class="profile-card">
-      <header class="profile-card__item header">
-
-      </header>
-      <div class="profile-card__item">
-        <p><strong>Victor Crest</strong> 26</p>
-        <p>London</p>
-      </div>
-      <footer class="profile-card__item">
-        <ul class="profile-stats-list">
-          <li class="profile-stats-list__itm"><strong>80K</strong> Followers</li>
-          <li class="profile-stats-list__itm"><strong>803K</strong> Likes</li>
-          <li class="profile-stats-list__itm"><strong>1.4K</strong> Photos</li> 
-        </ul>
+    <main class="background">
+        <div class="profile-card">
+          <header class="profile-card__item">
+            <img class="header-img" src="images/bg-pattern-card.svg" alt="">
+          </header>
+          <div class="profile-card__item card-body">
+            <p><span class="name-stats">Victor Crest</span> 26</p>
+            <p class="location">London</p>
+          </div>
+          <footer class="profile-card__item card-footer">
+            <hr>
+            <ul class="profile-stats-list">
+              <li class="profile-stats-list__item">
+                <span class="name-stats">
+                  80K
+                </span><p>followers</p>
+              </li>
+              <li class="profile-stats-list__item">
+                <span class="name-stats">
+                  803K
+                </span><p>Likes</p>
+                </li>
+              <li class="profile-stats-list__item">
+                <span class="name-stats">
+                  1.4K
+                </span><p>Photos</p>
+              </li> 
+            </ul>
+        
+          </footer>
+        </div>
+        
+      
+        
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Madziviridze Hove</a>.
+        </div>
+      </main>
     
-      </footer>
-    </div>
-    
-  
-    
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Madziviridze Hove</a>.
-    </div>
-  </main>
-  
 </body>
 </html>
