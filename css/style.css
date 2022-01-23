@@ -47,8 +47,8 @@
     font-size: 16px;
     font-weight: normal;
     height: 50%;
-    width: 100%;
-    max-width: 337px;
+    width: 337px;
+    max-width: 100%;
     min-width: 335px;
     z-index: 1;
     border-radius: 15px;
