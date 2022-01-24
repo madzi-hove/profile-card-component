@@ -61,7 +61,7 @@
     content: "";
     height: 96px;
     width: 96px;
-    top: 20%;
+    top: 21%;
     align-self: center;
     background: url(../images/image-victor.jpg) no-repeat center;
     z-index: 3;
@@ -77,9 +77,12 @@
 }
 
 /* styling for the namme and stats */
+h1 {
+    font-size: 18px;
+}
+
 .name-stats {
     color: var(--dark-saturated-blue);
-    font-size: 18px;
     font-weight: bold;
 }
 .header-img {
